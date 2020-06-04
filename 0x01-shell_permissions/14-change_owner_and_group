@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R --reference=betty:holberton ./
+chown betty:holberton ./
