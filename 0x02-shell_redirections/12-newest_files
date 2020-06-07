@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mtime 0 | head -n 10
+ls -1t | head -10
