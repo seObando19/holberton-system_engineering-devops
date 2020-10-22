@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Bash script that displays Holberton School 10 times.
-count=10
-until [ $count -lt 0 ]; do
+count=0
+until [ $count -gt 9 ]; do
 	echo "Holberton School"
-	let count-=1
+	i = $((i+1))
 done
