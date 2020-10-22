@@ -17,7 +17,7 @@ do
 			echo "bad luck from Italy"
 			;;
 		*)
-			echo "Holberton School"
+			echo "$count"
 			;;
 	esac
 	let count=count+1
