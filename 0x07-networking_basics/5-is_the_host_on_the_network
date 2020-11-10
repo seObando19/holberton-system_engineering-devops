@@ -2,7 +2,7 @@
 #Bash script that pings an IP address passed as an argument.
 # echo "$@" is argv
 # echo "$#" is argc
-if [$# -lt 1]
+if [ $# -lt 1 ]
 then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
