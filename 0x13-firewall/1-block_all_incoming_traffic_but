@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Setting up a firewall
-sudo apt -y install ufw
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw  allow 22/tcp
