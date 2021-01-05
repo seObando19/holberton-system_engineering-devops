@@ -6,7 +6,7 @@
 #		You cannot use apt-get remove
 #	Write a Bash script that configures the container to fit the above requirements
 sudo chown nginx:nginx /etc/nginx/nginx.conf
-sed -i "s/80/8080/g" /etc/nginx/sites-enabled/default
+sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
 chmod 777 /etc/nginx/nginx.conf
 pkill apache2
 sudo -u nginx service nginx restart
