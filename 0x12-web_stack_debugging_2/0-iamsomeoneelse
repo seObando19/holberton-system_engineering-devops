@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# The bash script what recieve a argument such as user
+# Requirements:
+#	write a Bash script that accepts one argument
+#	the script should run the whoami command under the user passed as an argument
+#	make sure to try your script by passing different users
+if [[ "$(whoami)" != $1 ]]
+then
+	echo "$1"
+else
+	echo "$1"
+fi
