@@ -38,7 +38,7 @@ if __name__ == "__main__":
                          .format(URL, employee_id)).json()
     NUMBER_OF_DONE_TASKS = len(completed_task)
 
-    print("Employee {} is done with tasks({}/{})"
+    print("Employee {} is done with tasks({}/{}):"
           .format(EMPLOYEE_NAME, NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS))
 
     for task in completed_task:
